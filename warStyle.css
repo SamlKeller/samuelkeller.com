@@ -1,0 +1,130 @@
+@media only screen and (max-width: 970px) {
+    body {
+      text-align: center;
+    }
+    #pageContainer {
+      margin-top: 12.3% !important;
+      flex-direction: column !important;
+      align-content: center;
+    }
+    #Subtitle {
+      margin-top: 0.1% !important;
+    }
+    #Stats {
+      margin-top: 7.57% !important;
+    }
+    #exitToBack {
+        margin: 0 !important;
+    }
+
+    #hideMobile {
+        display: none;
+    }
+}
+
+  p, h1, h2, h3, h4 {
+    color: white;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(31, 31, 31);
+  }
+  
+  #pageContainer {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  #mainTitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3em;
+  }
+  
+  #Subtitle {
+    margin-top: -4.89%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1em;
+  }
+  
+  #Progress {
+    font-family: 'Roboto Mono', monospace;
+    color: #797979;
+  }
+  
+  #playButton {
+    margin-top: 2.5%;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: grey;
+    width: 18.2%;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+  }
+  
+  #playButton:hover {
+    background-color: #dedede;
+  }
+  
+  #Stats {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
+    align-items: center;
+    margin-top: 1.4%;
+    text-align: center;
+  }
+  
+  #gameNumber {
+    margin-top: -3%;
+  }
+  
+  #bottomStats {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-evenly;
+    font-family: 'Roboto Mono', monospace !important;
+    width: 100%;
+  }
+  
+  #bottomRightContent {
+    position: fixed;
+    margin-right: 1%;
+    right: 0;
+    bottom: 0;
+    font-size: 0.85em;
+  }
+  
+  #Hello {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: right;
+  }
+
+  #warStats {
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  #exitToBack {
+    /*font-family: 'Rubic', sans-serif;
+    font-weight: bolder;
+    color: rgb(51, 51, 253);
+    text-decoration: none;
+    text-align: left !important;*/
+    margin-left: 2%;
+    margin-top: -7%;
+    text-align: left;
+    float: left;
+    position: absolute;
+  }
+
+  a {
+    font-weight: bolder;
+    color: rgb(51, 51, 253);
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
