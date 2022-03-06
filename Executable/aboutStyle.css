@@ -1,0 +1,76 @@
+@media screen and (max-width: 700px) {
+    #textParent {
+        width: 95% !important;
+    }
+
+    .Text {
+        font-size: 4vw !important;
+    }
+
+    #pageContainer {
+        height: 100% !important;
+        width: 100% !important;
+    }
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    color: white;
+    background-color: rgb(31, 31, 31);
+}
+
+.Text {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.List {
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+
+#Title {
+    text-align: center;
+    font-family: 'Source sans pro', sans-serif;
+    font-weight: 600; 
+}
+
+#p1 {
+    margin-top: 7.5%;
+}
+
+#textParent {
+    margin-top: 4.8%;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pageContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#Exit {
+    margin: 2%;
+    text-align: left;
+    float: left;
+}
+
+a {
+    font-weight: bolder;
+    color: rgb(51, 51, 253);
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+.embedLink {
+    font-weight: normal !important;
+}
+
+#bottomSpacer {
+    height: 100px;
+}
