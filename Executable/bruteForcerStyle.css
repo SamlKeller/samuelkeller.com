@@ -1,0 +1,62 @@
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  
+  #backgroundText {
+    position: absolute;
+    left: 0;
+    top: 30;
+    width: 100vw;
+    font-weight: lighest;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #backgroundTextBottom {
+    position: absolute;
+    left: 0;
+    bottom: 30;
+    width: 100vw;
+    font-weight: lighest;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #centralBlock {
+    padding: 160px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  #inputSection {
+    margin: auto;  
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 3% !important;
+    border-color: #a8a8a8;
+    
+  }
+  
+  #inputSection input, #inputSection button {
+    border-style: none;
+    outline: none;
+  }
+  
+  #Title {
+    font-family: 'Inconsolata', monospace;
+    width: 100% !important;
+  }
+  
+  #subTitle {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    margin-top: 0% !important;
+  }
