@@ -10,10 +10,6 @@
         text-align: center !important;
     }
 
-    #exitLink {
-        width: 100% !important;
-    }
-
     .extendedCard {
         height: 200% !important;
     }
@@ -122,6 +118,10 @@
 
 }
 
+#exitLink {
+    width: 23% !important;
+}
+
 @media screen and (max-width: 700px) {
 
     #articlesHere {
@@ -150,6 +150,10 @@
 
     #viewMode {
         display: none;
+    }
+
+    .extendedCard h4 {
+        font-size: 3vw !important;
     }
 
     .Hide {
@@ -294,8 +298,9 @@ a {
 #FLPTsubtitle {
     font-family: 'Roboto', sans-serif;
     font-size: 0.7vw;
-    width: 100%;
     font-weight: 200;
+    margin: auto !important;
+    width: 100%;
 }
 
 #floatingPointIMG {
@@ -374,26 +379,30 @@ a {
 }
 
 .extendedCard {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
     width: 17%;
     height: 34vh !important;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.43s;
-    margin: 2%;
-    padding: 23.43px;
     border-style: none;
     border-radius: 7.25px;
     background-color: rgb(31, 31, 31);
     text-align: center;
 }
 
-#FLPextendedIMG {
-    height: 60%;
-    width: 70%;
+#FLPextendedIMG, #runOnExtendedIMG {
+    height: 150px;
+    width: 175px;
 }
 
 #warExtendedIMG {
-    height: 60%;
-    width: 72%;
+    height: 150px;
+    width: 200px !important;
 }
 
 .extendedCard h3 {
@@ -401,13 +410,33 @@ a {
 }
 
 .extendedCard h4 {
+    width: 90%;
+    margin: auto;
     font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    color:rgb(221, 221, 221)
+    font-weight: 100;
+    color:rgb(221, 221, 221);
+    font-size: 0.9vw;
 }
 
 .extendedCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardSubcontent {
+    margin: auto !important;
+    align-content: center;
+    text-align: center;
+    padding: auto !important;
+}
+
+#floatingPointTitle {
+    align-items: center;
+}
+
+#floatingPointSubtitle {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
 }
 
 #pageContainer {
