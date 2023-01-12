@@ -84,12 +84,7 @@
         font-size: 12.5vw !important;
     }
 
-    #FLPTsubtitle {
-        font-size: 1.9vw !important;
-        font-weight: 200 !important;
-    }
-
-    #warSubtitle {
+    #warSubtitle, #FLPTsubtitle {
         font-size: 1.4vw !important;
         font-weight: 200 !important;
     }
@@ -167,11 +162,7 @@
         width: 80% !important;
     }
 
-    #FLPTsubtitle {
-        font-size: 3vw !important;
-    }
-
-    #warSubtitle {
+    #warSubtitle, #FLPTsubtitle {
         font-size: 3vw !important;
     }
 
@@ -294,14 +285,7 @@ a {
     font-family: 'Noto Sans', sans-serif;
 }
 
-#warSubtitle {
-    font-family: 'Roboto', sans-serif;
-    font-size: 0.7vw;
-    width: 57.9%;
-    font-weight: 200;
-}
-
-#FLPTsubtitle {
+#FLPTsubtitle, #warSubtitle {
     font-family: 'Roboto', sans-serif;
     font-size: 0.7vw;
     font-weight: 200;
@@ -316,11 +300,12 @@ a {
 }
 
 #warImage {
-    margin-top: -29%;
     float: right;
     height: 25%;
     width: 25%;
-    padding-right: 9%;
+    background-color: orange;
+    padding: 0;
+    margin: 0;
 }
 
 #warSubtext {
