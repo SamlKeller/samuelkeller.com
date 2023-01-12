@@ -1,0 +1,148 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+#sectionContainer {
+    margin: auto;
+    margin-top: 10.8%;
+    align-self: center;
+    align-items: center;
+    padding: auto;
+    width: 60%;
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#buttonSubarrow {
+    padding-left: 0.5%;
+}
+
+#bodyTitle {
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5.2em;
+    padding: auto;
+}
+
+#buttonContainer {
+    margin-top: -2.5% !important;
+    height: 15%;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.gamesButton {
+    margin: auto;
+    padding: auto;
+    background-color: #d61847;
+    border: solid transparent;
+    border-radius: 5px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 49.2%;
+    height: 100%;
+}
+
+.gamesButton:after {
+    background-clip: padding-box;
+    background-color: #f61c1c;
+    border: solid transparent;
+    border-radius: 10px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;    
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.gamesButton:main,
+.gamesButton:focus {
+    user-select: auto;
+}
+
+.gamesButton:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.gamesButton:disabled {
+    cursor: auto;
+}
+
+#floatingPointButton {
+    width: 100%;
+    background-color: rgb(0, 116, 8) !important;
+}
+
+#ringFightButton {
+    background-image: url(zombieSingleResized.png);
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+    width: 100%;
+    background-color: rgb(11, 0, 25) !important;
+}
+
+#ringFightButton:after {
+    background-color: rgb(23, 13, 54) !important;
+}
+
+#floatingPointButton:after {
+    background-color: rgb(19, 172, 27);
+}
+
+#floatingPointButtonContainer {
+    width: 48%;
+    height: 100%;
+}
+
+#ringFightButtonContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 48%;
+}
+
+#ringFightSubimage {
+    height: 55%;
+    width: 10%;
+}
+
+#ringFightImageContainer span {
+    content: url(zombiesingleResized.png);
+}

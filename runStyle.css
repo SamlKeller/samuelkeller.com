@@ -1,0 +1,120 @@
+@media only screen and (max-width: 700px) {
+    /*Lack of mobile support might be an issue if this was a large project but for the use case it won't matter*/
+    body {
+      overflow: hidden !important;
+    }
+    
+    #mobileBlocker {
+      display: inherit !important;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: rgba(50, 50, 50, 0.1);
+    }
+  
+    #mobileSubpanel {
+      margin-top: 42% !important;
+      background-color: white;
+      width: 60%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      margin: auto;
+      font-family: 'Roboto', sans-serif;
+    }
+  
+    #pageContent {
+      display: none;
+    }
+  
+    #noMobile {
+      padding: 14px;
+      font-size: 4.9vw;
+      font-weight: 400;
+    }
+    
+  }
+  
+  #mobileBlocker {
+    display: none;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  #bodyContainer {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  #titleContainer {
+    display: flex;
+    text-align: left;
+    margin-left: 13%;
+    flex-direction: column;
+    margin-top: 12%;
+  }
+  
+  #Title {
+    font-size: 5vw;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  #subTitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    margin-top: -1%;
+    width: 55%;
+  }
+  
+  #bottomSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: left;
+    margin-top: 15%;
+  }
+  
+  #firstSection, #secondSection, #thirdSection {
+    margin: auto;
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 60%  !important;
+    text-align: left !important;
+  }
+  
+  #firstSectionHeading, #secondSectionHeading, #thirdSectionHeading {
+    text-align: left !important;
+    font-family: 'Roboto', sans-serif !important;
+  }
+  
+  #firstSectionSubheading, #secondSectionSubheading, #thirdSectionSubheading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+    font-weight: 100;
+  }
+  
+  .bulletPoint {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+    font-weight: 100;
+  }
+  
+  #bottomSpacer {
+    height: 35vh;
+  }
+  
+  #Kahoot {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

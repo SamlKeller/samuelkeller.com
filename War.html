@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <html lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>War simulation by Samuel Keller</title>
+    <link href="warStyle.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Antique+B1&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+<!--Google anylitics-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-97TF1TFCHF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-97TF1TFCHF');
+</script>
+<script src="warScript.js"></script>
+  </head>
+  <body>
+    <a href="index.html" id="exitToBack"><- Exit to homepage</a>
+    <div id="pageContainer">
+      <div id="contentContainer">
+      <h1 id="mainTitle">WAR SIMULATION</h1>
+      <h2 id="Subtitle">(No, the card game, not the real thing)</h2>
+      <h4  id="Progress"><i>In progress</i></h4>
+      <button onclick="playWar()" id="playButton">PLAY</button>
+      <p id="gameInfoBlock"></p>
+      </div>
+      <div id="Stats">
+        <h1 id="winnerText">Play game to view stats...</h1>
+        <p id="gameNumber"></p>
+        <div id="bottomStats">
+          <h3 id="roundsPlayed">-</h3>
+          <h3 id="timeSeconds">-</h3>
+          <h3 id="timeHours">-</h3>
+        </div>
+      </div>
+    </div>
+    <div id="bottomRightContent">
+      <h3 id="Hello">Created by Samuel Keller</h3>
+      <h4 id="warStats"><span id="hideMobile">Press CTRL+SHIFT+I to view detailed game statistics</span></h4>
+    </div>
+  </body>
+</html>
