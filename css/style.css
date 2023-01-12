@@ -534,3 +534,24 @@ a {
     }
 
 }
+
+.notFound, #notFoundSubtitle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    padding-top: 15%;
+    margin: auto;
+    text-align: center;
+}
+
+#notFoundSubtitle {
+    margin-top: 5%;
+}
+
+#notFoundSubtitle {
+    font-family: monospace;
+}

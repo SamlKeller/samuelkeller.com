@@ -1,7 +1,11 @@
 let mainText;
+
 let iterationVar = 0;
+
 let targetText = 'Samuel Keller';
+let secondTarget = '404';
 let subtitleTargetText = 'Website of';
+
 let subtitleText;
 let lightMode = false;
 let text1;
@@ -26,6 +30,18 @@ function Type () {
     mainText.innerHTML = '';
     setInterval(function () {
         mainText.innerHTML += targetText.charAt(iterationVar);
+        iterationVar++;
+        if (iterationVar > 12) {
+            mainText.title = 'Samuel Keller';
+        }
+    }, 100);
+}
+
+function notFoundType () {
+    mainText = document.getElementById("notFound");
+    mainText.innerHTML = '';
+    setInterval(function () {
+        mainText.innerHTML += secondTarget.charAt(iterationVar);
         iterationVar++;
         if (iterationVar > 12) {
             mainText.title = 'Samuel Keller';
