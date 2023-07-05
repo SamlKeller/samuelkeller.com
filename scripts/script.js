@@ -6,25 +6,6 @@ let targetText = 'Samuel Keller';
 let secondTarget = '404';
 let subtitleTargetText = 'Website of';
 
-let subtitleText;
-let lightMode = false;
-let text1;
-let body;
-let text2;
-let text3;
-let viewTitle;
-let Card1;
-let Card2;
-let cardOneTitle;
-let cardOneSubtitle;
-let cardTwoTitle;
-let cardTwoSubtitle;
-let title;
-let subtitle;
-
-let params;
-let url;
-
 function Type () {
     mainText = document.getElementById("myName");
     mainText.innerHTML = '';
@@ -49,36 +30,49 @@ function notFoundType () {
     }, 100);
 }
 
+let lightMode = false;
+
 function changeView () {
     if (lightMode) {
-        console.log('Changing to dark mode');
-        body = document.getElementById("BODY").style.background = "rgb(31, 31, 31)";
-        text1 = document.getElementById("Subtitle").style.color = "white";
-        text2 = document.getElementById("myName").style.color = "white";
-        viewTitle = document.getElementById("viewMode").style.color = "white";
-        viewTitle = document.getElementById("viewMode").innerHTML = 'Click to view page in light mode';
-        text3 = document.getElementById("whoAmI").style.color = "white";
-        Card1 = document.getElementById("FloatingPoint").style.background = "rgb(31, 31, 31)";
-        Card2 = document.getElementById("War").style.background = "rgb(31, 31, 31)";
-        cardOneTitle = document.getElementById("FLPTcardTitle").style.color = "white";
-        cardTwoTitle = document.getElementById("warCardTitle").style.color = "white";
-        cardOneSubtitle = document.getElementById("FLPTsubtitle").style.color = "white";
-        cardTwoSubtitle = document.getElementById("warSubtitle").style.color = "white";
-        lightMode = false; 
+        document.getElementById("BODY").style.background = "rgb(31, 31, 31)";
+        document.getElementById("Subtitle").style.color = "white";
+        document.getElementById("myName").style.color = "white";
+        document.getElementById('viewMode').style.color = "white";
+        document.getElementById('viewMode').innerHTML = '<span id="mode" class="material-symbols-outlined arrow">light_mode</span>';
+        document.getElementById('mode').style.color = 'white';
+        document.getElementById('subtext').style.color = 'white';
+        document.getElementById("whoAmI").style.color = "white";
+        document.getElementById('email').style.color = 'white';
+
+        //Time complexity for the below statement is terrible but I don't care to fix it
+        for (let i = 0; i < document.getElementsByClassName('projectTitle').length; i++) {
+            document.getElementsByClassName('projectTitle')[i].style.color = 'white';
+        }
+        for (let i = 0; i < document.getElementsByClassName('projectText').length; i++) {
+            document.getElementsByClassName('projectText')[i].style.color = 'white';
+        }
+        for (let i = 0; i < document.getElementsByClassName('arrow').length; i++) {
+            document.getElementsByClassName('arrow')[i].style.color = 'white';
+        }
+        lightMode = false;
     } else {
-        console.log('Changing to light mode');
-        body = document.getElementById("BODY").style.background = "white";
-        text1 = document.getElementById("Subtitle").style.color = "black";
-        text2 = document.getElementById("myName").style.color = "black";
-        viewTitle = document.getElementById("viewMode").style.color = "black";
-        viewTitle = document.getElementById("viewMode").innerHTML = 'Click to view page in dark mode';
-        text3 = document.getElementById("whoAmI").style.color = "black";
-        Card1 = document.getElementById("FloatingPoint").style.background = "white";
-        Card2 = document.getElementById("War").style.background = "white";
-        cardOneTitle = document.getElementById("FLPTcardTitle").style.color = "black";
-        cardTwoTitle = document.getElementById("warCardTitle").style.color = "black";
-        cardOneSubtitle = document.getElementById("FLPTsubtitle").style.color = "black";
-        cardTwoSubtitle = document.getElementById("warSubtitle").style.color = "black";
+        document.getElementById("BODY").style.background = "white";
+        document.getElementById("Subtitle").style.color = "black";
+        document.getElementById("myName").style.color = "black";
+        document.getElementById('viewMode').innerHTML = '<span id="mode" class="material-symbols-outlined arrow">dark_mode</span>';
+        document.getElementById('mode').style.color = "black";
+        document.getElementById('subtext').style.color = 'black';
+        document.getElementById("whoAmI").style.color = "black";
+        document.getElementById('email').style.color = 'black';
+        for (let i = 0; i < document.getElementsByClassName('projectTitle').length; i++) {
+            document.getElementsByClassName('projectTitle')[i].style.color = 'black';
+        }
+        for (let i = 0; i < document.getElementsByClassName('projectText').length; i++) {
+            document.getElementsByClassName('projectText')[i].style.color = 'black';
+        }
+        for (let i = 0; i < document.getElementsByClassName('arrow').length; i++) {
+            document.getElementsByClassName('arrow')[i].style.color = 'black';
+        }
         lightMode = true;
     }
 }

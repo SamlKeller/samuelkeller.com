@@ -1,68 +1,107 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
-        <link rel="icon" href="/images/favicon.png" type="image/png">
-        <link rel="stylesheet" href="/css/style.css">
-        <meta lang="en">
-        <meta description="The website of Samuel Keller, developer and creator of several applications, including Stradr, an online simulated stock trading platform.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="/scripts/script.js"></script>
-        <title>Samuel Keller</title>
-    </head>
-    <body onLoad="Type()" id="BODY">
-        <div id="mainSection">
-            <div id="titleContainer">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta lang="en">
+    <meta
+        description="The website of Samuel Keller, developer and creator of several applications, including Stradr, an online simulated stock trading platform.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/scripts/script.js"></script>
+    <title>Samuel Keller</title>
+</head>
+
+<body onLoad="Type()" id="BODY">
+    <div id="mainSection">
+        <div id="titleContainer">
+            <div id="topCont">
                 <h4 id="Subtitle"><span class="Hide">Website of</span></h4>
                 <h1 id="myName">Samuel Keller</h1>
-                <div id="aboutContainer">
-                    <p id="whoAmI">I'm Samuel Keller, a young developer living in Virginia.  
-                        <br>I publish games, create various programming, writing, design, and web related projects, and am the sole owner and maintainer of this website and
-                        <br>all associated pages linked from it.
-                    </p>
-                    <p id="viewMode" onclick="changeView()"><i>Click to view page in light mode</i></p>
-                </div>
-                <div id="Articles">
-                    <h3 id="articlesHere">Articles</h3>
-                    <a href="/html/Stradr.html"><h4 class="articleHere">Stradr release -></h4></a>
-                    <a href="/html/Contact.html"><h4 class="articleHere">Contact -></h4></a>
-                </div>
+                <p id="subtext">Student, Entrepreneur, Programmer</p>
             </div>
-            <div id="Projects">
-                <div id="FloatingPoint" class="Card">
-                    <a href="https://stradr.com">
-                        <div id="floatingPointInner">
-                            <h3 id="FLPTcardTitle">Stradr</h3>
-                            <h4 id="FLPTsubtitle">Simulated stock trading online</h4>
-                        </div>
-                        <div id="Image">
-                            <img src="/images/stradrBig.png" alt="Stradr" id="floatingPointIMG">
-                        </div>
-                    </button>
-                </div>
-                <div id="War" class="Card">
-                    <a href="/html/War.html">
-                        <div id="floatingPointInner">
-                            <h3 id="warCardTitle">War simulation</h3>
-                            <h4 id="warSubtitle">Simulation of a useless card game, War</h4>
-                        </div>
-                        <div id="Image">
-                            <img src="/images/warImage3.png" alt="War simulation" id="floatingPointIMG">
-                        </div>
-                    </button>
-                </div>
-                <a href="/html/allProjects.html" id="allProjectsLink"><h4 class="articleHere"><i>View all projects -></i></h4></a>
+            <div id="aboutContainer">
+                <p id="whoAmI">I'm Samuel Keller or Samuel Stankiewicz, depending on who you ask. I'm a developer,
+                    Entrepreneur, and Student living in Northern Virginia. I attend Thomas Jefferson High School and
+                    maintain several projects, including Stradr.com, an educational brokerage simulation, and this
+                    website.</p>
+                <p id="email">samuel.stankiewicz@gmail.com</p>
             </div>
         </div>
-    </body>
-</html>
+        <div id="projectsSect">
+            <div id="buttonCont">
+                <button onclick="shiftUp()" class="shiftButton noSelect"><span
+                        class="material-symbols-outlined arrow">arrow_upward</span></button>
+                <button onclick="shiftDown()" class="shiftButton noSelect"><span
+                        class="material-symbols-outlined arrow">arrow_downward</span></button>
+            </div>
+            <div id="cardCont">
+                <div class="projectCard">
+                    <a href="https://stradr.com" target="_blank">
+                        <h2 class="projectTitle">Stradr.com</h2>
+                    </a>
+                    <p class="projectText">Stradr.com, a simulated brokerage platform developed and maintained by me,
+                        allows for any user around the world to experience the stock market in real time without
+                        assuming financial risk associated with tradditional markets. It's been used in a variety of
+                        environments and educational levels, including elementary, middle, and high schools, as well as
+                        several colleges and post-secondary programs. It offers fractional shares, international
+                        currency, aftermarket trading, and local groups.</p>
+                    <img src="/images/stradr340.png" alt="Stradr Logo" class="logo" id="stradrLogo">
+                </div>
+                <div class="projectCard">
+                    <a href="/html/War.html">
+                        <h2 class="projectTitle">War Simulation</h2>
+                    </a>
+                    <p class="projectText">A small project created to simulate the card game War. It's still in progress, but you can simulate an entire game of War with this tool in under a second, saving you hours of time consuming bore.<br><br>Use the developer tools to find a complete log of your game.</p>
+                    <img src="/images/card-game.png" alt="Stradr Logo" id="warImage" class="logo">
+                </div>
+                <div class="projectCard">
+                    <h2 class="projectTitle">Coming soon</h2>
+                    <p class="projectText">More content coming soon...</p>
+                    <img src="/images/questionMarks.png" alt="Stradr Logo" id="questionImages" class="logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <p id="viewMode" onclick="changeView()"><span class="material-symbols-outlined arrow" id="mode">light_mode</span>
+    </p>
+    <script>
+        let current = 0;
+        for (let n = 1; n < document.getElementsByClassName('projectCard').length; n++) {
+            document.getElementsByClassName('projectCard')[n].style.display = 'none';
+        }
 
+        function shiftUp () {
+            if (current != 0) {
+                document.getElementsByClassName('projectCard')[current].style.setProperty('display', 'none', 'important');
+                document.getElementsByClassName('projectCard')[current - 1].style.setProperty('display', 'inherit', 'important');
+                current--;
+            }
+        }
+
+        function shiftDown () {
+            if (current != document.getElementsByClassName('projectCard').length - 1) {
+                document.getElementsByClassName('projectCard')[current].style.setProperty('display', 'none', 'important');
+                document.getElementsByClassName('projectCard')[current + 1].style.setProperty('display', 'inherit', 'important');
+                current++;
+            }
+        }
+    </script>
+</body>
+
+</html>
