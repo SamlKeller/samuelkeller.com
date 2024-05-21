@@ -1,0 +1,33 @@
+
+#containerContent {
+    margin: 8% auto auto auto;
+    width: 80%;
+}
+
+#resumeFlex {
+    display: flex;
+    flex-direction: row;
+    margin: auto auto auto 0px;
+    justify-content: flex-start;
+}
+
+#resumeFlex a {
+    margin-right: 24px;
+}
+
+.bulletTitle {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+#projectsList {
+    margin-top: 48px;
+}
+
+#summaryText {
+    width: 80%;
+}
+
+.bulletSub {
+    width: 80%;
+}
