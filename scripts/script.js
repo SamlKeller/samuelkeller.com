@@ -2,7 +2,7 @@ let mainText;
 
 let iterationVar = 0;
 
-let targetText = 'Samuel Keller';
+let targetText = 'Samuel Stankewicz';
 let secondTarget = '404';
 let subtitleTargetText = 'Website of';
 
@@ -13,7 +13,7 @@ function Type () {
         mainText.innerHTML += targetText.charAt(iterationVar);
         iterationVar++;
         if (iterationVar > 12) {
-            mainText.title = 'Samuel Keller';
+            mainText.title = 'Samuel Stankiewicz';
         }
     }, 100);
 }
@@ -25,7 +25,7 @@ function notFoundType () {
         mainText.innerHTML += secondTarget.charAt(iterationVar);
         iterationVar++;
         if (iterationVar > 12) {
-            mainText.title = 'Samuel Keller';
+            mainText.title = 'Samuel Stankiewicz';
         }
     }, 100);
 }
