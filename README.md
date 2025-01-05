@@ -1,3 +1,3 @@
-# Samuelkeller.com
+# SamuelStankiewicz.com
 
-Personal website of Samuel Keller/Samuel Stankiewicz
+Personal website of Samuel Stankiewicz
