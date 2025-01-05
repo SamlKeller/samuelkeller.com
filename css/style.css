@@ -98,8 +98,6 @@
 
 }
 
-
-
 #exitLink {
     width: 23% !important;
 }
@@ -252,6 +250,7 @@ a {
     padding: 24px;
     position: relative;
     min-height: 320px;
+    overflow: hidden;
 }
 
 .projectTitle {
@@ -282,6 +281,24 @@ a {
     right: 0;
     bottom: 0;
     filter: invert(40%);
+    height: 70%;
+    z-index: -1;
+}
+
+#ndImage {
+    position: absolute;
+    right: 18px;
+    bottom: 44px;
+    filter: invert(20%);
+    height: 70%;
+    z-index: -1;
+}
+
+#springImage {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    filter: brightness(45%) invert(15%);
     height: 70%;
     z-index: -1;
 }
