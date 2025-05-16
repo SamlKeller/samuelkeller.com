@@ -1,5 +1,5 @@
 #containerContent {
-    margin: 8% auto auto auto;
+    margin: 7% auto auto auto;
     width: 80%;
 }
 
@@ -16,11 +16,15 @@
 
 .bulletTitle {
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.6rem;
+}
+
+.sublet {
+    margin-left: 18px;
 }
 
 #projectsList {
-    margin-top: 48px;
+    margin-top: 38px;
 }
 
 #summaryText {
@@ -29,4 +33,10 @@
 
 .bulletSub {
     width: 80%;
+}
+
+#topImage {
+    display: none;
+    border-radius: 4px;
+    margin-bottom: 24px;
 }
